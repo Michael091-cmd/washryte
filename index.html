@@ -1,56 +1,64 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>WashRyte - Premium Laundry & Dry Cleaning in Lagos</title>
+  <title>WashRyte - Laundry Pickup & Delivery Lagos</title>
   <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body { font-family: Arial, sans-serif; background: #f8f9fa; color: #333; line-height: 1.6; }
-    header { background: #1e90ff; color: white; padding: 20px; text-align: center; }
-    header h1 { font-size: 2em; margin-bottom: 10px; }
-    header p { font-size: 1.1em; }
-    .container { max-width: 900px; margin: 30px auto; padding: 0 20px; }
-    .card { background: white; padding: 25px; border-radius: 12px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); margin-bottom: 20px; }
-    .card h2 { color: #1e90ff; margin-bottom: 15px; }
-    .btn { display: inline-block; background: #1e90ff; color: white; padding: 12px 25px; border-radius: 8px; text-decoration: none; font-weight: bold; margin-top: 10px; }
-    .btn:hover { background: #0d78e0; }
-    .contact { text-align: center; }
-    .contact p { font-size: 1.1em; margin: 8px 0; }
-    footer { text-align: center; padding: 20px; background: #222; color: white; margin-top: 40px; }
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Arial', sans-serif; }
+    body { background: #fff; color: #222; }
+    .hero { background: linear-gradient(135deg, #1e90ff 0%, #00bfff 100%); color: white; text-align: center; padding: 80px 20px; }
+    .hero h1 { font-size: 2.8em; margin-bottom: 15px; }
+    .hero p { font-size: 1.2em; margin-bottom: 25px; opacity: 0.9; }
+    .btn { display: inline-block; padding: 15px 35px; border-radius: 50px; text-decoration: none; font-weight: bold; font-size: 1.1em; margin: 8px; }
+    .btn-whatsapp { background: #25D366; color: white; }
+    .btn-call { background: white; color: #1e90ff; }
+    .section { padding: 50px 20px; max-width: 900px; margin: 0 auto; text-align: center; }
+    .section h2 { font-size: 2em; color: #1e90ff; margin-bottom: 20px; }
+    .services { display: flex; justify-content: center; gap: 30px; flex-wrap: wrap; }
+    .service { width: 150px; }
+    .service .icon { font-size: 3em; margin-bottom: 10px; }
+    .contact { background: #f8f9fa; }
+    .contact p { font-size: 1.1em; margin: 10px 0; }
+    footer { background: #222; color: #aaa; text-align: center; padding: 20px; }
   </style>
 </head>
 <body>
 
-<header>
+<section class="hero">
   <h1>WashRyte</h1>
-  <p>We wash, dry, fold & deliver. Pickup available in Lagos.</p>
-</header>
+  <p>Clean clothes, zero stress. <br>Free Pickup & Delivery in Lagos. 24-48hr turnaround.</p>
+  <a href="https://wa.me/2348059303818" class="btn btn-whatsapp">Book on WhatsApp</a>
+  <a href="tel:08059303818" class="btn btn-call">Call 0805 930 3818</a>
+</section>
 
-<div class="container">
-  
-  <div class="card">
-    <h2>Our Services</h2>
-    <ul>
-      <li>✅ Wash & Fold</li>
-      <li>✅ Dry Cleaning</li>
-      <li>✅ Ironing & Pressing</li>
-      <li>✅ Free Pickup & Delivery in Lagos</li>
-    </ul>
+<section class="section">
+  <h2>What We Do</h2>
+  <div class="services">
+    <div class="service">
+      <div class="icon">👕</div>
+      <h3>Wash & Fold</h3>
+    </div>
+    <div class="service">
+      <div class="icon">👔</div>
+      <h3>Dry Cleaning</h3>
+    </div>
+    <div class="service">
+      <div class="icon">✨</div>
+      <h3>Ironing</h3>
+    </div>
   </div>
+</section>
 
-  <div class="card contact">
-    <h2>Contact Us</h2>
-    <p>📍 Floor 2, The Lennox Mall, Lekki, Lagos</p>
-    <p>📞 Call/WhatsApp: 0805 930 3818</p>
-    <a href="https://wa.me/2348059303818" class="btn" style="background:white; color:#1e90ff; border:2px solid #1e90ff;">Chat on WhatsApp</a>
-  </div>
-
-</div>
+<section class="section contact">
+  <h2>Visit Us</h2>
+  <p>📍 Floor 2, The Lennox Mall, Lekki, Lagos</p>
+  <p>📞 0805 930 3818</p>
+  <p>🕘 Mon - Sat | 8am - 6pm</p>
+</section>
 
 <footer>
-  <p>© 2026 WashRyte. Clean clothes, zero stress.</p>
+  <p>© 2026 WashRyte. We pick up. We wash. We deliver.</p>
 </footer>
 
 </body>
